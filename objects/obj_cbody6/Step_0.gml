@@ -37,19 +37,19 @@ if act = 1 {
 //image_index = floor(anim/4)+(dir*4)+(head*8)
 
 
-if !instance_exists(obj_cbody1)
+if !instance_exists(obj_cbody5)
 	head = 1
 else {
 	if bdirection = 0 {
-		if place_meeting(x+2,y,obj_cbody1)
-		or place_meeting(x+8,y,obj_mushroom)
+		if place_meeting(x+5,y,obj_cbody5)
+		or place_meeting(x+20,y,obj_mushroom)
 			or x > 560
 			head = 0
 	else
 		head = 1
 	}
 	if bdirection = 1 {
-	if place_meeting(x-5,y,obj_cbody1)
+	if place_meeting(x-5,y,obj_cbody5)
 	or place_meeting(x-20,y,obj_mushroom)
 	or x < 40
 		head = 0

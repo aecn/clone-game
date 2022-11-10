@@ -2,7 +2,7 @@ head = 0
 bdirection = 0
 //anim = 0
 act = 0
-alarm[0] = 8
+alarm[0] = 24
 
 
 

@@ -41,8 +41,8 @@ if !instance_exists(obj_cbody1)
 	head = 1
 else {
 	if bdirection = 0 {
-		if place_meeting(x+2,y,obj_cbody1)
-		or place_meeting(x+8,y,obj_mushroom)
+		if place_meeting(x+5,y,obj_cbody1)
+		or place_meeting(x+20,y,obj_mushroom)
 			or x > 560
 			head = 0
 	else
