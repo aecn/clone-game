@@ -24,6 +24,11 @@ if room == rm_game{
 	if player_lives <= 0 {
 	room_goto(rm_end) // out of lives = game over
 	}
+	
+		// create mushrooms
+//for (var i = 0; i < 10; i += 1) {
+//    instance_create_layer(32, 32 + (i * 32), "mushrooms", obj_mushroom);
+//}
 }
 
 if room == rm_end {
