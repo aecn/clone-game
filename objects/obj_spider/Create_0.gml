@@ -10,7 +10,7 @@ stop = 0
 
 y_dir = irandom(1)
 
-alarm[0] = 15;
+alarm[0] = 20;
 
 
 

@@ -4,7 +4,7 @@
   "name": "snd_death",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.72,
   "preload": true,
   "bitRate": 192,
   "sampleRate": 44100,
@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_death.wav",
-  "duration": 0.765442,
+  "duration": 0.436145,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

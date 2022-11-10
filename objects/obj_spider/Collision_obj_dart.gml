@@ -20,9 +20,10 @@ if y > 700 {
 // spider gets destroyed when hit by the dart
 instance_destroy();
 instance_create_layer(x, y, "enemies", obj_edeath);
+audio_play_sound(snd_edeath, 1, 0)
 
 // respawning attempt
-instance_create_layer(random_range(20, 580), random_range(500, 680), "enemies", obj_spider)
+//instance_create_layer(random_range(20, 580), random_range(500, 680), "enemies", obj_spider)
 
 
 

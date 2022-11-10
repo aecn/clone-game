@@ -5,7 +5,8 @@ if y_dir = 0
 if y_dir = 1
 	y += 3
 
-if stop = 0 {
+if stop = 0 
+{
 if x_dir = 0
 x += 3
 else
@@ -21,11 +22,15 @@ if y > 780
 	y_dir = 0
 
 // destroy once it goes off screen
-if x_dir = 0 and x = 640
+if x_dir = 0 and x = 600
 	instance_destroy()
-
-if x_dir = 1 and x = -40
+	
+if x_dir = 1 and x = 0
 	instance_destroy()
+	
+if x >= 600 {
+	instance_destroy()
+}
 
 
 

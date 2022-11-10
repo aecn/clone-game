@@ -1,3 +1,8 @@
+	// score
+if points > high_score {
+	high_score = points
+}
+	
 //// centipede sound
 
 // spider sound
@@ -9,6 +14,7 @@ if instance_exists(obj_spider) {
 }
 
 if room == rm_start {
+	points = 0
 	if keyboard_check_pressed(vk_enter){
 		room_goto(rm_game)
 	}
@@ -16,7 +22,7 @@ if room == rm_start {
 
 if room == rm_game{
 	if player_lives <= 0 {
-		room_goto(rm_end) // out of lives = game over
+	room_goto(rm_end) // out of lives = game over
 	}
 }
 
